@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api"; // Backend running on 3000
+// const API_URL = "http://localhost:3000/api"; // Backend running on 3000
+const API_URL = "https://clikd-google-sheets-import-backend.onrender.com/api";
 
 const getAuthHeader = () => ({
   headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
@@ -45,7 +46,7 @@ export const importTasks = async (sheetUrl) => {
 
 export const fetchPaginatedTasks = async (page = 1, limit = 10) => {
   const { data } = await axios.get(
-    `http://localhost:3000/api/tasks/paginated?page=${page}&limit=${limit}`,
+    `https://clikd-google-sheets-import-backend.onrender.com/api/tasks/paginated?page=${page}&limit=${limit}`,
     {
       headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
     }

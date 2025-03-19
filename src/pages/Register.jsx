@@ -14,7 +14,7 @@ const Register = () => {
         setError('');
 
         try {
-            const { data } = await axios.post('http://localhost:3000/api/auth/register', { name, email, password });
+            const { data } = await axios.post('https://clikd-google-sheets-import-backend.onrender.com/api/auth/register', { name, email, password });
             localStorage.setItem('token', data.token);
             toast.success("Account created successfully!");
             navigate('/dashboard');

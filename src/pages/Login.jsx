@@ -14,7 +14,7 @@ const Login = () => {
         setError('');
 
         try {
-            const { data } = await axios.post('http://localhost:3000/api/auth/login', { email, password });
+            const { data } = await axios.post('https://clikd-google-sheets-import-backend.onrender.com/api/auth/login', { email, password });
             localStorage.setItem('token', data.token);
             toast.success("Logged in successfully!");
             navigate('/dashboard'); // Redirect after login
