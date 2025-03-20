@@ -10,35 +10,35 @@ Images: <details><summary>Click to expand</summary>
 
 ### 🌐 Live Demo
 
-![Image1](src\results\1.png)
+![Image1](./src/results/1.png)
 
 ### Edit Task
 
-![Image2](src\results\2.png)
+![Image2](./src/results/2.png)
 
 ### Search and Pagination
 
-![Image6](src\results\SearchANDpagination.png)
+![Image6](./src/results/SearchANDpagination.png)
 
 ### Filter Functionality
 
-![Image4](src\results\filter.png)
+![Image4](./src/results/filter.png)
 
 ### Login Page
 
-![Image7](src\results\login.png)
+![Image7](./src/results/login.png)
 
 ### Signup Page
 
-![Image8](src\results\signup.png)
+![Image8](./src/results/signup.png)
 
 ### Task Details Page
 
-![Image3](src\results\3.png)
+![Image3](./src/results/3.png)
 
 ### Responsive Design
 
-![Image5](src\results\responsive.png)
+![Image5](./src/results/responsive.png)
 
 </details>
 
